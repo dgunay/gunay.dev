@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+frontpage:
+  path: /
+  controller: App\Controller\FrontPageController::showFrontPage
